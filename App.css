@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap");
+
+body {
+  background-image: url(public/pozadina.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main {
+  background-color: rgba(255, 255, 255, 0.636);
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 30px;
+}
+input[type="text"] {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  color: grey;
+  font-style: italic;
+  text-align: center;
+  font-weight: 600;
+  background-color: rgba(247, 243, 243, 0.171);
+}
+img {
+  width: 50px;
+}
+
+.icon {
+  height: 150px;
+  width: 150px;
+}
+.clock {
+  font-family: "Playfair Display", serif;
+  float: right;
+  font-size: 30px;
+  color: grey;
+}
+.title {
+  font-family: "Playfair Display", serif;
+  float: left;
+  font-size: 30px;
+  color: grey;
+  font-style: italic;
+}
+.main {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  word-spacing: 3px;
+}
+.inputCity {
+  border-style: none;
+  border-bottom: 1px solid grey;
+}
+
+.inputCity:focus {
+  outline: none;
+}
+
+.sentence {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  color: grey;
+  font-style: italic;
+  padding-bottom: 10%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.mainWeather {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+}
+.temp {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  margin-bottom: 25px;
+  align-items: center;
+}
+.right {
+  width: 30%;
+}
+
+.up,
+.down {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Playfair Display";
+  font-style: italic;
+}
+.smallicon {
+  height: 40px;
+  width: 40px;
+}
+.smalltext {
+  font-family: "Playfair Display", serif;
+  font-size: 1.2rem;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content div {
+  width: 90%;
+  color: black;
+}
+.forecast {
+  display: flex;
+  height: 20%;
+}
+#weatherIcon {
+  height: auto;
+  width: 80%;
+}
+
+/* for forecast */
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  width: 100%;
+}
+li {
+  font-family: "Playfair Display";
+  display: table-column;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.temperature {
+  font-size: 25px;
+  margin-bottom: 25px;
+  justify-content: center;
+}
+.temps {
+  display: inline;
+  font-style: italic;
+}
+.subheading {
+  font-family: "Playfair Display";
+  font-style: italic;
+  color: grey;
+}
